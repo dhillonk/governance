@@ -147,27 +147,9 @@ enumerate ODP projects and link to each project's published mdBook.
 
 ## Unresolved Questions
 
-- **Canonical in-repo path.** Is `docs/` the required path, or is
-  `documentation/` (or another name) acceptable if a project already uses
-  it? The default recommended here is `docs/`.
-- **Versioning strategy.** Should published mdBooks be versioned per release
-  (e.g. `latest`, `stable`, `vX.Y`), or should they always reflect the
-  default branch? This may be left to each project initially, with a
-  follow-up RFC if a shared convention proves necessary.
-- **Shared cross-project content.** Where should content that genuinely
-  spans multiple projects live (e.g. shared architecture overviews that
-  cover both EC-side and host-side components)? Options include: the
-  `documentation` repository, a designated "umbrella" project repository,
-  or duplication with clear canonical ownership.
-- **Ownership of the `documentation` landing page.** Which team or role
-  maintains the org-level index that links to project mdBooks after
-  migration?
 - **Migration timeline.** This RFC does not fix a completion date. Should
   a target window (e.g. "by the next release cycle") be set for the
   initial two projects, or is best-effort acceptable?
-- **RFC index location.** RFCs currently live in the `governance`
-  repository. Should the org-level landing in the `documentation`
-  repository link to that index, or should the RFC index itself move?
 
 ## Prior Art
 
