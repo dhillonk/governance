@@ -156,12 +156,6 @@ enumerate ODP projects and link to each project's published mdBook.
 - **Patina** already co-locates its documentation with its source code and
   publishes it as an mdBook. This RFC generalizes Patina's approach to the
   rest of ODP.
-- **Rust ecosystem practice.** Many core Rust projects publish their
-  documentation as mdBook sites hosted alongside the code, including
-  [The Rust Programming Language book][rust-book],
-  [the Cargo book][cargo-book], and
-  [the `rustc` dev guide][rustc-dev-guide]. Contributors moving between
-  ODP projects and the broader Rust ecosystem will find a familiar model.
 - **Docs-as-code more broadly.** Treating documentation as source that
   lives with the code, is reviewed in the same PRs, and is built by CI is
   a well-established pattern across open-source projects.
